@@ -104,3 +104,54 @@
     border-width: 0 0 3px 0;
     padding: 5px 9px;
 }
+
+.comment {
+	overflow: hidden;
+	padding-bottom: 12px;
+}
+
+.comment img {
+	float: left;
+	padding-right: 6px;
+}
+
+.comment time {
+	color: LightGray;
+	font-size: 12px;
+}
+
+.comment p {
+	padding-bottom: 20px;
+}
+
+.tabs > li {
+	display: inline-block;
+	list-style: none;
+}
+
+.tabs > li > a {
+	text-decoration: none;
+	color: blue;
+	font-size: 14px;
+}
+
+.tabs > li > a > div {
+	border-radius: 6px 6px 0 0;
+	border: solid 1px LightGray;
+	padding: 5px 15px 0 15px;
+	border-bottom-color: white;
+	margin-bottom: -4px;
+}
+
+.tabs .tab-focus {
+	border-bottom: solid 5px white;
+	/*margin-bottom: -4px;*/
+}
+
+.tab-content {
+	width: 600px;
+	height: 200px;
+	padding: 20px;
+	border-radius: 6px;
+	border: solid 1px LightGray;
+}
