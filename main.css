@@ -1,0 +1,106 @@
+.center {
+	text-align: center;
+	padding: 50px;
+}
+
+.center > * {
+	display: inline-block;
+	padding-right: 25px;
+	vertical-align: top;
+}
+
+.vert {
+	padding-top: 25%;
+	padding-bottom: 25%;
+	/*margin-top: auto;*/
+	/*margin-bottom: auto;*/
+}
+
+.hlist > li {
+	float: left;
+	list-style: none;
+}
+
+.btn {
+	background-color: #FF9999;
+	border-radius: 10px;
+	color: white;
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 40px;
+	border: 0;
+	/*vertical-align: center;*/
+	/*float: left;*/
+	list-style: none;
+}
+
+.btn1 {
+	padding: 30px 60px;
+    font-size: 1.5em;
+}
+
+.btn2 {
+	padding: 20px 60px;
+}
+
+.btn3 {
+	padding: 10px 15px;
+	font-size: 0.8em;
+}
+
+.menu {
+	list-style: none;
+	float: left;
+	text-decoration: none;
+	padding: 10px 45px;
+	background-color: #FF9999;
+	/*margin: 10px;*/
+}
+
+.menu-link {
+	text-decoration: none;
+	color: white;
+}
+
+.menu-left {
+	border-radius: 10px 0 0 10px;
+}
+
+.menu-right {
+	border-radius: 0 10px 10px 0;
+}
+
+.menu:hover {
+	background-color: LightGray;
+}
+
+.pagi {
+
+}
+
+.pagi > li {
+	float: left;
+	list-style: none;
+	/*border-bottom: 2px solid LightGray;*/
+	padding-right: 20px;
+}
+
+.pagi > li > a {
+	color: #FF9999;
+	text-decoration: none;
+	font-size: 16px;
+	display: inline-block;
+	border: solid 1px #FF9999;
+    border-width: 0 0 3px 0;
+    padding: 5px 9px;
+}
+
+.pagi > li > span {
+	color: LightGray;
+	text-decoration: none;
+	font-size: 16px;
+	display: inline-block;
+	border: solid 1px LightGray;
+    border-width: 0 0 3px 0;
+    padding: 5px 9px;
+}
